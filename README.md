@@ -61,7 +61,7 @@ By completing this journey, I aim to understand:
 | Day | Topic | Status |
 |-----|-------|--------|
 | Day 01 | Flask Introduction, Routing, Request-Response Cycle | ✅ Completed |
-| Day 02 | Advanced Routing, HTTP Methods | ⏳ Pending |
+| Day 02 | Advanced Routing, HTTP Methods | ✅ Completed |
 | Day 03 | Flask Templates and Jinja2 | ⏳ Pending |
 | Day 04 | Integrating HTML, CSS, JavaScript | ⏳ Pending |
 | Day 05 | Forms and User Input Handling | ⏳ Pending |
