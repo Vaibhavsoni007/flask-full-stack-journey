@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Result</title>
+        </head>
+        <body>
+
+            <h1>Student Result</h1>
+
+            {% if marks >= 75 %}
+            <h2>Excellent</h2>
+
+            {% elif marks >= 60 %}
+            <h2>Good</h2>
+
+            {% else %}
+            <h2>Needs Improvement</h2>
+
+            {% endif %}
+
+        </body>
+    </html>
+</html>

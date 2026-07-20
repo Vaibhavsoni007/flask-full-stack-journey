@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Home</title>
-</head>
-<body>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
 
-    <h1>Welcome to Flask</h1>
+        <h1>Welcome {{ name }}</h1>
 
-</body>
+        <h1>Student Result</h1>
+
+        <!-- if statement in jinja2 template -->
+        {% if marks >= 40 %}
+        <h2>Pass ✅</h2>
+        {% endif %}
+
+        <!-- if else statement in jinja2 template -->
+        {% if marks >= 40 %}
+
+        <h2>Pass ✅</h2>
+
+        {% else %}
+
+        <h2>Fail ❌</h2>
+
+        {% endif %}
+
+        <!-- if, elif, else statement in jinja2 template -->
+        {% if marks >= 90 %}
+
+        <h2>Grade A</h2>
+
+        {% elif marks >= 75 %}
+
+        <h2>Grade B</h2>
+
+        {% elif marks >= 60 %}
+
+        <h2>Grade C</h2>
+
+        {% else %}
+
+        {% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<h1>Welcome to Home Page</h1>
+
+<p>This is Home Page.</p>
+
+{% endblock %}
+
+    </body>
 </html>
